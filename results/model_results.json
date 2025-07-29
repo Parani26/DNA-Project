@@ -1,0 +1,945 @@
+{
+  "metrics": {
+    "Random Forest": {
+      "metrics": {
+        "accuracy": "0.9907407407407407",
+        "precision": "0.9905660377358491",
+        "recall": "1.0",
+        "f1": "0.995260663507109"
+      },
+      "cv_mean": 0.9906976744186047,
+      "cv_std": 0.004651162790697683
+    },
+    "XGBoost": {
+      "metrics": {
+        "accuracy": "1.0",
+        "precision": "1.0",
+        "recall": "1.0",
+        "f1": "1.0"
+      },
+      "cv_mean": 0.9930232558139535,
+      "cv_std": 0.005696487773914378
+    },
+    "LightGBM": {
+      "metrics": {
+        "accuracy": "1.0",
+        "precision": "1.0",
+        "recall": "1.0",
+        "f1": "1.0"
+      },
+      "cv_mean": 0.9953488372093023,
+      "cv_std": 0.009302325581395366
+    },
+    "SVM": {
+      "metrics": {
+        "accuracy": "1.0",
+        "precision": "1.0",
+        "recall": "1.0",
+        "f1": "1.0"
+      },
+      "cv_mean": 0.9860465116279069,
+      "cv_std": 0.008701528806451041
+    },
+    "Logistic Regression": {
+      "metrics": {
+        "accuracy": "0.9722222222222222",
+        "precision": "0.9722222222222222",
+        "recall": "1.0",
+        "f1": "0.9859154929577465"
+      },
+      "cv_mean": 0.9813953488372092,
+      "cv_std": 0.009302325581395326
+    }
+  },
+  "predicted_mutations": {
+    "Random Forest": [
+      {
+        "position": 322,
+        "probability": "1.0",
+        "wild_type_codon": "TGG",
+        "possible_mutations": [
+          "AGG",
+          "GGG",
+          "CGG",
+          "TAG",
+          "TTG",
+          "TCG",
+          "TGA",
+          "TGT",
+          "TGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 127,
+        "probability": "1.0",
+        "wild_type_codon": "AGC",
+        "possible_mutations": [
+          "TGC",
+          "GGC",
+          "CGC",
+          "AAC",
+          "ATC",
+          "ACC",
+          "AGA",
+          "AGT",
+          "AGG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 94,
+        "probability": "1.0",
+        "wild_type_codon": "AGG",
+        "possible_mutations": [
+          "TGG",
+          "GGG",
+          "CGG",
+          "AAG",
+          "ATG",
+          "ACG",
+          "AGA",
+          "AGT",
+          "AGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 97,
+        "probability": "1.0",
+        "wild_type_codon": "GAA",
+        "possible_mutations": [
+          "AAA",
+          "TAA",
+          "CAA",
+          "GTA",
+          "GGA",
+          "GCA",
+          "GAT",
+          "GAG",
+          "GAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 100,
+        "probability": "1.0",
+        "wild_type_codon": "CAA",
+        "possible_mutations": [
+          "AAA",
+          "TAA",
+          "GAA",
+          "CTA",
+          "CGA",
+          "CCA",
+          "CAT",
+          "CAG",
+          "CAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 103,
+        "probability": "1.0",
+        "wild_type_codon": "AGG",
+        "possible_mutations": [
+          "TGG",
+          "GGG",
+          "CGG",
+          "AAG",
+          "ATG",
+          "ACG",
+          "AGA",
+          "AGT",
+          "AGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 106,
+        "probability": "1.0",
+        "wild_type_codon": "AAC",
+        "possible_mutations": [
+          "TAC",
+          "GAC",
+          "CAC",
+          "ATC",
+          "AGC",
+          "ACC",
+          "AAA",
+          "AAT",
+          "AAG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 109,
+        "probability": "1.0",
+        "wild_type_codon": "CTT",
+        "possible_mutations": [
+          "ATT",
+          "TTT",
+          "GTT",
+          "CAT",
+          "CGT",
+          "CCT",
+          "CTA",
+          "CTG",
+          "CTC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 112,
+        "probability": "1.0",
+        "wild_type_codon": "TAA",
+        "possible_mutations": [
+          "AAA",
+          "GAA",
+          "CAA",
+          "TTA",
+          "TGA",
+          "TCA",
+          "TAT",
+          "TAG",
+          "TAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 115,
+        "probability": "1.0",
+        "wild_type_codon": "TAG",
+        "possible_mutations": [
+          "AAG",
+          "GAG",
+          "CAG",
+          "TTG",
+          "TGG",
+          "TCG",
+          "TAA",
+          "TAT",
+          "TAC"
+        ],
+        "actual": true
+      }
+    ],
+    "XGBoost": [
+      {
+        "position": 166,
+        "probability": "0.9998880624771118",
+        "wild_type_codon": "ATT",
+        "possible_mutations": [
+          "TTT",
+          "GTT",
+          "CTT",
+          "AAT",
+          "AGT",
+          "ACT",
+          "ATA",
+          "ATG",
+          "ATC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 316,
+        "probability": "0.9998880624771118",
+        "wild_type_codon": "CTA",
+        "possible_mutations": [
+          "ATA",
+          "TTA",
+          "GTA",
+          "CAA",
+          "CGA",
+          "CCA",
+          "CTT",
+          "CTG",
+          "CTC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 289,
+        "probability": "0.9998675584793091",
+        "wild_type_codon": "AGG",
+        "possible_mutations": [
+          "TGG",
+          "GGG",
+          "CGG",
+          "AAG",
+          "ATG",
+          "ACG",
+          "AGA",
+          "AGT",
+          "AGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 97,
+        "probability": "0.9998675584793091",
+        "wild_type_codon": "GAA",
+        "possible_mutations": [
+          "AAA",
+          "TAA",
+          "CAA",
+          "GTA",
+          "GGA",
+          "GCA",
+          "GAT",
+          "GAG",
+          "GAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 55,
+        "probability": "0.9998675584793091",
+        "wild_type_codon": "AGG",
+        "possible_mutations": [
+          "TGG",
+          "GGG",
+          "CGG",
+          "AAG",
+          "ATG",
+          "ACG",
+          "AGA",
+          "AGT",
+          "AGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 115,
+        "probability": "0.9998675584793091",
+        "wild_type_codon": "TAG",
+        "possible_mutations": [
+          "AAG",
+          "GAG",
+          "CAG",
+          "TTG",
+          "TGG",
+          "TCG",
+          "TAA",
+          "TAT",
+          "TAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 127,
+        "probability": "0.9998675584793091",
+        "wild_type_codon": "AGC",
+        "possible_mutations": [
+          "TGC",
+          "GGC",
+          "CGC",
+          "AAC",
+          "ATC",
+          "ACC",
+          "AGA",
+          "AGT",
+          "AGG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 208,
+        "probability": "0.9998675584793091",
+        "wild_type_codon": "TGG",
+        "possible_mutations": [
+          "AGG",
+          "GGG",
+          "CGG",
+          "TAG",
+          "TTG",
+          "TCG",
+          "TGA",
+          "TGT",
+          "TGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 142,
+        "probability": "0.9998675584793091",
+        "wild_type_codon": "TTA",
+        "possible_mutations": [
+          "ATA",
+          "GTA",
+          "CTA",
+          "TAA",
+          "TGA",
+          "TCA",
+          "TTT",
+          "TTG",
+          "TTC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 37,
+        "probability": "0.9998675584793091",
+        "wild_type_codon": "GCA",
+        "possible_mutations": [
+          "ACA",
+          "TCA",
+          "CCA",
+          "GAA",
+          "GTA",
+          "GGA",
+          "GCT",
+          "GCG",
+          "GCC"
+        ],
+        "actual": true
+      }
+    ],
+    "LightGBM": [
+      {
+        "position": 211,
+        "probability": "0.9999992587933075",
+        "wild_type_codon": "TGG",
+        "possible_mutations": [
+          "AGG",
+          "GGG",
+          "CGG",
+          "TAG",
+          "TTG",
+          "TCG",
+          "TGA",
+          "TGT",
+          "TGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 40,
+        "probability": "0.9999992587933075",
+        "wild_type_codon": "GAA",
+        "possible_mutations": [
+          "AAA",
+          "TAA",
+          "CAA",
+          "GTA",
+          "GGA",
+          "GCA",
+          "GAT",
+          "GAG",
+          "GAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 16,
+        "probability": "0.9999992571326316",
+        "wild_type_codon": "AAA",
+        "possible_mutations": [
+          "TAA",
+          "GAA",
+          "CAA",
+          "ATA",
+          "AGA",
+          "ACA",
+          "AAT",
+          "AAG",
+          "AAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 187,
+        "probability": "0.9999992571326316",
+        "wild_type_codon": "TTT",
+        "possible_mutations": [
+          "ATT",
+          "GTT",
+          "CTT",
+          "TAT",
+          "TGT",
+          "TCT",
+          "TTA",
+          "TTG",
+          "TTC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 136,
+        "probability": "0.9999992563423822",
+        "wild_type_codon": "GCG",
+        "possible_mutations": [
+          "ACG",
+          "TCG",
+          "CCG",
+          "GAG",
+          "GTG",
+          "GGG",
+          "GCA",
+          "GCT",
+          "GCC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 4,
+        "probability": "0.9999992546762151",
+        "wild_type_codon": "GCA",
+        "possible_mutations": [
+          "ACA",
+          "TCA",
+          "CCA",
+          "GAA",
+          "GTA",
+          "GGA",
+          "GCT",
+          "GCG",
+          "GCC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 229,
+        "probability": "0.9999992516775165",
+        "wild_type_codon": "AAA",
+        "possible_mutations": [
+          "TAA",
+          "GAA",
+          "CAA",
+          "ATA",
+          "AGA",
+          "ACA",
+          "AAT",
+          "AAG",
+          "AAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 58,
+        "probability": "0.9999992494770387",
+        "wild_type_codon": "CCC",
+        "possible_mutations": [
+          "ACC",
+          "TCC",
+          "GCC",
+          "CAC",
+          "CTC",
+          "CGC",
+          "CCA",
+          "CCT",
+          "CCG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 193,
+        "probability": "0.9999992479094918",
+        "wild_type_codon": "ATA",
+        "possible_mutations": [
+          "TTA",
+          "GTA",
+          "CTA",
+          "AAA",
+          "AGA",
+          "ACA",
+          "ATT",
+          "ATG",
+          "ATC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 112,
+        "probability": "0.9999992458460388",
+        "wild_type_codon": "TAA",
+        "possible_mutations": [
+          "AAA",
+          "GAA",
+          "CAA",
+          "TTA",
+          "TGA",
+          "TCA",
+          "TAT",
+          "TAG",
+          "TAC"
+        ],
+        "actual": true
+      }
+    ],
+    "SVM": [
+      {
+        "position": 121,
+        "probability": "0.9999988900203344",
+        "wild_type_codon": "TTG",
+        "possible_mutations": [
+          "ATG",
+          "GTG",
+          "CTG",
+          "TAG",
+          "TGG",
+          "TCG",
+          "TTA",
+          "TTT",
+          "TTC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 259,
+        "probability": "0.9999988611483441",
+        "wild_type_codon": "GTT",
+        "possible_mutations": [
+          "ATT",
+          "TTT",
+          "CTT",
+          "GAT",
+          "GGT",
+          "GCT",
+          "GTA",
+          "GTG",
+          "GTC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 256,
+        "probability": "0.9999988210185291",
+        "wild_type_codon": "CAC",
+        "possible_mutations": [
+          "AAC",
+          "TAC",
+          "GAC",
+          "CTC",
+          "CGC",
+          "CCC",
+          "CAA",
+          "CAT",
+          "CAG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 292,
+        "probability": "0.9999988166345916",
+        "wild_type_codon": "TAT",
+        "possible_mutations": [
+          "AAT",
+          "GAT",
+          "CAT",
+          "TTT",
+          "TGT",
+          "TCT",
+          "TAA",
+          "TAG",
+          "TAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 220,
+        "probability": "0.9999987287890933",
+        "wild_type_codon": "TTC",
+        "possible_mutations": [
+          "ATC",
+          "GTC",
+          "CTC",
+          "TAC",
+          "TGC",
+          "TCC",
+          "TTA",
+          "TTT",
+          "TTG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 181,
+        "probability": "0.9999986494338293",
+        "wild_type_codon": "CAC",
+        "possible_mutations": [
+          "AAC",
+          "TAC",
+          "GAC",
+          "CTC",
+          "CGC",
+          "CCC",
+          "CAA",
+          "CAT",
+          "CAG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 85,
+        "probability": "0.9999985253947424",
+        "wild_type_codon": "GTT",
+        "possible_mutations": [
+          "ATT",
+          "TTT",
+          "CTT",
+          "GAT",
+          "GGT",
+          "GCT",
+          "GTA",
+          "GTG",
+          "GTC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 139,
+        "probability": "0.999998086365287",
+        "wild_type_codon": "AGC",
+        "possible_mutations": [
+          "TGC",
+          "GGC",
+          "CGC",
+          "AAC",
+          "ATC",
+          "ACC",
+          "AGA",
+          "AGT",
+          "AGG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 160,
+        "probability": "0.9999979145401346",
+        "wild_type_codon": "CAG",
+        "possible_mutations": [
+          "AAG",
+          "TAG",
+          "GAG",
+          "CTG",
+          "CGG",
+          "CCG",
+          "CAA",
+          "CAT",
+          "CAC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 205,
+        "probability": "0.9999974300611303",
+        "wild_type_codon": "CAC",
+        "possible_mutations": [
+          "AAC",
+          "TAC",
+          "GAC",
+          "CTC",
+          "CGC",
+          "CCC",
+          "CAA",
+          "CAT",
+          "CAG"
+        ],
+        "actual": true
+      }
+    ],
+    "Logistic Regression": [
+      {
+        "position": 13,
+        "probability": "0.9999934630204993",
+        "wild_type_codon": "ATG",
+        "possible_mutations": [
+          "TTG",
+          "GTG",
+          "CTG",
+          "AAG",
+          "AGG",
+          "ACG",
+          "ATA",
+          "ATT",
+          "ATC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 289,
+        "probability": "0.9999918186749217",
+        "wild_type_codon": "AGG",
+        "possible_mutations": [
+          "TGG",
+          "GGG",
+          "CGG",
+          "AAG",
+          "ATG",
+          "ACG",
+          "AGA",
+          "AGT",
+          "AGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 67,
+        "probability": "0.9999889192004493",
+        "wild_type_codon": "ATA",
+        "possible_mutations": [
+          "TTA",
+          "GTA",
+          "CTA",
+          "AAA",
+          "AGA",
+          "ACA",
+          "ATT",
+          "ATG",
+          "ATC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 163,
+        "probability": "0.9999888079607953",
+        "wild_type_codon": "GGC",
+        "possible_mutations": [
+          "AGC",
+          "TGC",
+          "CGC",
+          "GAC",
+          "GTC",
+          "GCC",
+          "GGA",
+          "GGT",
+          "GGG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 172,
+        "probability": "0.9999847432314858",
+        "wild_type_codon": "CAC",
+        "possible_mutations": [
+          "AAC",
+          "TAC",
+          "GAC",
+          "CTC",
+          "CGC",
+          "CCC",
+          "CAA",
+          "CAT",
+          "CAG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 184,
+        "probability": "0.9999840768375718",
+        "wild_type_codon": "CAC",
+        "possible_mutations": [
+          "AAC",
+          "TAC",
+          "GAC",
+          "CTC",
+          "CGC",
+          "CCC",
+          "CAA",
+          "CAT",
+          "CAG"
+        ],
+        "actual": true
+      },
+      {
+        "position": 208,
+        "probability": "0.9999825360909441",
+        "wild_type_codon": "TGG",
+        "possible_mutations": [
+          "AGG",
+          "GGG",
+          "CGG",
+          "TAG",
+          "TTG",
+          "TCG",
+          "TGA",
+          "TGT",
+          "TGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 46,
+        "probability": "0.9999793711319215",
+        "wild_type_codon": "AGA",
+        "possible_mutations": [
+          "TGA",
+          "GGA",
+          "CGA",
+          "AAA",
+          "ATA",
+          "ACA",
+          "AGT",
+          "AGG",
+          "AGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 214,
+        "probability": "0.9999747637607121",
+        "wild_type_codon": "GGT",
+        "possible_mutations": [
+          "AGT",
+          "TGT",
+          "CGT",
+          "GAT",
+          "GTT",
+          "GCT",
+          "GGA",
+          "GGG",
+          "GGC"
+        ],
+        "actual": true
+      },
+      {
+        "position": 97,
+        "probability": "0.9999718033701516",
+        "wild_type_codon": "GAA",
+        "possible_mutations": [
+          "AAA",
+          "TAA",
+          "CAA",
+          "GTA",
+          "GGA",
+          "GCA",
+          "GAT",
+          "GAG",
+          "GAC"
+        ],
+        "actual": true
+      }
+    ]
+  },
+  "feature_importance": {
+    "Random Forest": {
+      "GC Content": 0.08135596109255244,
+      "Codon Frequency": 0.21400944701479338,
+      "Position": 0.323017940307851,
+      "A Content": 0.10284503152026166,
+      "T Content": 0.1306512003922282,
+      "G Content": 0.05028680220078136,
+      "C Content": 0.09783361747153213
+    },
+    "XGBoost": {
+      "GC Content": 0.07097019255161285,
+      "Codon Frequency": 0.6870470643043518,
+      "Position": 0.09316454082727432,
+      "A Content": 0.013111290521919727,
+      "T Content": 0.019426992163062096,
+      "G Content": 0.031394727528095245,
+      "C Content": 0.08488524705171585
+    },
+    "LightGBM": {
+      "GC Content": 203,
+      "Codon Frequency": 134,
+      "Position": 366,
+      "A Content": 119,
+      "T Content": 149,
+      "G Content": 43,
+      "C Content": 69
+    }
+  }
+}
