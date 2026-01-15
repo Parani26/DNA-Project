@@ -1,6 +1,6 @@
 # Cancer Genomic Data Analysis
 
-This project aims to analyze cancer genomic data using various machine learning models to identify potential genetic markers and patterns associated with cancer development.
+This project, which was fully vibe-coded in 30 minutes, aims to analyse cancer genomic data using various machine learning models to identify potential genetic markers and patterns associated with cancer development.
 
 ## Project Structure
 ```
